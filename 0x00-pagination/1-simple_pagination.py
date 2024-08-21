@@ -8,9 +8,7 @@ from typing import List, Tuple
 
 
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
-    """
-    Return a Tuple 
-    """
+    """Return a Tuple"""
     start, end = 0, 0
     for i in range(page):
         start = end
